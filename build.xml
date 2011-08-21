@@ -1,0 +1,16 @@
+<project name="pigi-framework" basedir="." default="deploy">
+	<property name="jar.name" value="pigi-core.jar"/>
+	
+	<path id="project.classpath">
+		<fileset dir="../3rdparty">
+			<include name="hadoop/**/*.jar"/>
+			<include name="hbase/**/*.jar"/>
+		</fileset>
+	</path>		
+	
+	<property file="../integration/build.properties"/>		
+	<import file="../integration/build.xml"/>
+		
+			
+	
+</project>	

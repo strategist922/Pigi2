@@ -1,0 +1,11 @@
+The project Pigi2 is spun off from pigi-project.org, a beautiful but a little bit obsolete (references an older version of HBase).
+
+The goal is to enable indexing, pagination and maintaing sort order in HBase records. Until we provide decent documentation here,
+please look up pigi-project.org for further info.
+
+You are also invited to cooperate in this project; it is work in progress. 
+
+It works though, we use it in our company... well, is there any other option? Seems like there's none in the whole world; am I wrong?
+
+- Vlad Patryshev
+08/22/2011 (ha, 20 years ago the Communist Party of the Soviet Union was banned, hallelujah!)
